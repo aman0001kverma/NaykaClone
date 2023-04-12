@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cart-ct{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+
+        }
+        button{
+            /* display: flex; */
+            width: 20px;
+            margin: 0px 5px 0px 5px;
+            background-color: transparent;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        .card{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            width: 350px;
+            height: 400px;
+            text-align: center;
+        }
+        .remove{
+            width: 70px;
+            /* font-s: bold; */
+            background-color: rgb(350,80,80);
+        }
+        input{
+            width: 150px;
+            height: 20px;
+            margin-bottom: 20px;
+        }
+        #apply{
+            width: 70px;
+            height: 20px;
+            background-color: rgb(350,80,80);
+        }  
+        #textbox{
+            width: 300px;
+            height: 25px;
+            font-size: 14px;
+            padding-left: 5px;
+            border-radius: 5px;
+            border: 1px solid #888;
+            outline: none;
+        }
+        .btn{
+            width: 300px;
+            height: 50px;
+            background: rgb(350,80,80);
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            outline: none;
+            border: 0;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        .btn:active{
+            background: #08083f;
+        }
+        .btn1{
+            width: 50px;
+            height: 50px;
+            background: gray;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            outline: none;
+            border: 0;
+            margin-top: 15px;
+        }
+        .btn2{
+            width: 300px;
+            height: 70px;
+            background: rgb(231, 96, 224);
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            outline: none;
+            border: 0;
+            color: white;
+            margin-top: 15px;
+        }
+        .over{
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+        .child{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            height: 530px;
+            background: #fff;
+            border-radius: 7px;
+            animation: anim 0.7s ease 1;
+        }
+        @keyframes anim{
+            0%{
+                opacity: 0;
+                margin-bottom: 150px;
+            }
+            100%{
+                opacity: 1;
+                margin-bottom: 0;
+            }
+        } 
+        @media screen and (min-width:100px) and (max-width:500px) {
+            #cart-ct{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 30px;
+
+        }
+        @media screen and (min-width:501px) and (max-width:800px) {
+            #cart-ct{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 30px;
+
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="total">Total price of the products= <span id="order-total">0</span></h1>
+    <p>Apply coupon for extra discount (optional)</p>
+    <input type="text" id="code" placeholder="coupon code"> <button id="apply">Apply</button>
+    <div id="cart-ct">
+        
+    </div>
+    <div>
+        <!-- <button class="button">CHECKOUT</button> -->
+    </div>
+    <center>
+        
+        <a href="payment.html"><button class="btn" >CHECKOUT</button></a>
+    </center>
+    <div class="over">
+        <div class="child">
+            <h2><b>SELECT PAYMENT METHOD</b></h2>
+            <button class="btn2" onclick="card()">PAY WITH CARD</button>
+            <button class="btn2" onclick="gpay()">GooglePay</button>
+            <button class="btn2" onclick="pPay()">PhonePe</button>
+            <button class="btn2" onclick="cod()">Cash on Delivery</button>
+            <button class="btn1" onclick="closeFun()"><ion-icon name="close-outline"></ion-icon></button>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+<script>
+    let cart=document.getElementById("cart-ct")
+    let total=document.getElementById("order-total")
+    let code=document.getElementById("code")
+    let apply=document.getElementById("apply")
+    let get=JSON.parse(localStorage.getItem("cart")) || []
+
+    
+
+
+        let sum=0;
+        let x;
+        get.forEach(element => {
+            sum+=Number(element.price)
+            total.innerText=`₹ ${sum}`
+            x=sum;
+            
+            
+            let card=document.createElement("div")
+            card.classList='card'
+            let image=document.createElement("img")
+            image.setAttribute("src",element.image)
+            let title=document.createElement("h4")
+            title.innerText=element.title
+            let price=document.createElement("p")
+            price.innerText=`₹ ${element.price}`
+            let incr=document.createElement("button")
+            incr.innerText="+"
+            incr.addEventListener("click",()=>{
+                qty.innerText++
+                if(incr.innerText=='+'){
+                sum = sum +Number(element.price*qty.innerText.length);
+                console.log(sum)
+                total.textContent = `₹ ${sum}`;
+                }
+                
+                // sum+=((+element.price)*(+element.qty))
+            })
+            /* console.log((+element.price)*(+element.qty)) */
+
+            let qty=document.createElement("span")
+            qty.innerText=1
+            let decr=document.createElement("button")
+            decr.innerText='-'
+            decr.addEventListener("click",()=>{
+                if(qty.innerText==1){
+          qty.innerText='1'
+        }
+        else{
+          qty.innerText--
+          if(decr.innerText=='-'){
+            sum = sum - Number(element.price*qty.innerText.length);
+            console.log(sum)
+            total.textContent =`₹ ${sum}`;
+          }
+          
+          // quantity.innerText--;
+        }
+                
+            })
+            let remove=document.createElement("button")
+            remove.innerText='Remove'
+            remove.classList='remove'
+            remove.addEventListener('click',()=>{
+                card.remove()
+            })
+            // / let sum=0;
+            
+
+
+            
+            card.append(image,title,price,incr,qty,decr,remove)
+            cart.append(card)
+
+            localStorage.setItem("cart",JSON.stringify(get))
+
+            
+        })
+
+         
+       
+        let coupon="discount20";
+        apply.addEventListener("click",()=>{
+            if(code.value==coupon){
+                x=x-x*(20/100);
+                total.innerText=`₹ ${x}`
+            }
+            else{
+                alert("Invalid coupon code")
+            }
+                /* console.log(code.value); */
+        })
+        console.log(x)
+        
+    
+
+</script>

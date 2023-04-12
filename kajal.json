@@ -1,0 +1,352 @@
+[
+    {
+        "id":1,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/3/b394c92NYKAC00000441_1.jpg",
+        "title":"Nykaa Cosmetics Black Magic Kajal Set Of 2",
+        "price": 289,
+        "category": "Nykaa Cosmetics"
+    },
+    {
+        "id":2,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/f/4f4fb8bMAYBE00000479_1.jpg",
+        "title":"Maybelline New York Colossal Waterproof 24H Stay Bold Kajal",
+        "price":339,
+        "category":"Maybelline New York"
+    },
+    {
+        "id":3,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/b/dbeb4e88904330900424_1.jpg",
+        "title":"Kay Beauty Waterproof 24 Hour Kajal-Spade-Black",
+        "price":200,
+        "category":"Kay Beauty Pro"
+    },
+    {
+        "id":4,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/f/ef3c934SUGAR00000051_1.jpg",
+        "title":"SUGAR Kohl of Honour Intense Kajal ",
+        "price":212,
+        "category":"Sugar"
+    },
+    {
+        "id":5,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/9/09d037emacxx00000225_0.jpg",
+        "title":"M.A.C In Extreme Dimension 24hr Kajal Eye Liner",
+        "price":750,
+        "category":"M.A.C"
+    },
+    {
+        "id":6,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904052435129_1.png",
+        "title":"Colorbar Intensely Rich Kajal",
+        "price":145,
+        "category":"Colorbar"
+    },
+    {
+        "id":7,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/8/b8e51b4737534800188_01.jpg",
+        "title":"Plum Natur Studio All-Day-Wear Kohl Kajal - Black Brilliance + Free sharpener",
+        "price":446,
+        "category":"Plum Natur Studio"
+    },
+    {
+        "id":8,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/4/d409516RIMME00000045_1.jpg",
+        "title":"Rimmel London Scandaleyes Exaggerate Eye Definer - Snow White",
+        "price":231,
+        "category":"Rimmel London"
+    },
+    {
+        "id":9,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/7/37da50bSUGAG00000032_1.jpg",
+        "title":"SUGAR POP Longwear Kajal - 01 Black",
+        "price":170,
+        "category":"Sugar"
+    },
+    {
+        "id":10,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/c/ec2a9df8903380002300__1_.jpg",
+        "title":"Faces Canada Magneteyes Kajal - 24 Hr Deep Black Finish (Pack Of 2)",
+        "price":297,
+        "category":"Faces Canada"
+    },
+    {
+        "id":11,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/1/015875cLAKME00000332_1.jpg",
+        "title":"Lakme Eyeconic Kajal - Twin Pack",
+        "price":289,
+        "category":"Lakme"
+    },
+    {
+        "id":12,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/4/f4aae986946537005757_1.jpg",
+        "title":"Maybelline New York The Colossal Kajal 24Hour Smudge Proof - Deep Black",
+        "price":189,
+        "category":"Maybelline New York"
+    },
+    {
+        "id":13,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/6/f6fecc18903380157956_2.jpg",
+        "title":"Faces Canada Magneteyes Kajal - Intense Black",
+        "price":161,
+        "category":"Faces Canada"
+    },
+    {
+        "id":14,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/0/7077e57KAYBE00000051_1.jpg",
+        "title":"Kay Beauty Gel Eye Pencil - Green",
+        "price":539,
+        "category":"Kay Beauty Pro"
+    },
+    {
+        "id":15,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/3/33ef0c5NYKAC00000132_0.jpg",
+        "title":"Nykaa Black Magic Kajal - Black",
+        "price":170,
+        "category":"Nykaa Cosmetics"
+    },
+    {
+        "id":16,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/7/b7ec7c18904245701857_rev1.jpg",
+        "title":"Nykaa Glamoreyes Colour Eye Pencil Kajal - Voodoo Grey 04",
+        "price":374,
+        "category":"Nykaa Cosmetics"
+    },
+    {
+        "id":17,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/e/ae61c8f8903380159448_1.jpg",
+        "title":"Faces Canada Ultime Pro Intense Gel Kajal With Free Sharpener - Black",
+        "price":439,
+        "category":"Faces Canada"
+    },
+    {
+        "id":18,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/3/23997_h-8901030644535.jpg",
+        "title":"Lakme Eyeconic Kajal - Classic Brown",
+        "price":285,
+        "category":"Lakme"
+    },
+    {
+        "id":19,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/2/b2deca28904245700829_rev1.jpg",
+        "title":"Nykaa Rock the Line Kajal Eyeliner - 001 Jet Black",
+        "price":179,
+        "category":"Nykaa Cosmetics"
+    },
+    {
+        "id":20,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/a/ea5058a8906087776758__1_.jpg",
+        "title":"Mamaearth Charcoal Black Long Stay Kajal Black Waterproof, For 11-hour Smudge-free Stay",
+        "price":254,
+        "category":"Mamaearth"
+    },
+    {
+        "id":21,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/4/140e1b4PLUMX00000155_01.jpg",
+        "title":"Plum Eye-swear-by Kohl Kajal - Deep Black",
+        "price":248,
+        "category":"Sugar"
+    },
+    {
+        "id":22,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/a/aacbb8bMAYBE00000467_1.jpg",
+        "title":"Maybelline New York The Colossal Combo - Mascara + Bold Liner + Kajal",
+        "price":750,
+        "category":"Maybelline New York"
+    },
+    {
+        "id":23,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904052400127_1_2.jpg",
+        "title":"Colorbar Just Smoky Eye Kajal - Just BlackColorbar Just Smoky Eye Kajal - Just Black",
+        "price":591,
+        "category":"Colorbar"
+    },
+    {
+        "id":24,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/7/3784fe58904214802271_1.jpg",
+        "title":"Blue Heaven 24 Hr Stay Kajal, Jet Black",
+        "price":81,
+        "category":"Blue Heaven"
+    },
+    {
+        "id":25,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/0/c0ca697FACES00000322-New1.jpg",
+        "title":"Faces Canada Magneteyes Range 3 In 1 Eye Combo",
+        "price":619,
+        "category":"Faces Canada"
+    },
+    {
+        "id":26,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/4/f4ed626LAKME00000467.jpg",
+        "title":"Lakme Eyeconic Power Pack Combo",
+        "price":945,
+        "category":"Lakme"
+    },
+    {
+        "id":27,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/n/y/nypac00001140m_2.jpg",
+        "title":"PAC Longlasting Kohl Pencil - Coffee Brown",
+        "price":445,
+        "category":"Sugar"
+    },
+    {
+        "id":28,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/c/7c1a45d8903380022261_1.jpg",
+        "title":"Faces Canada Magneteyes Kajal - Brown Comfort 03",
+        "price":199,
+        "category":"Faces Canada"
+    },
+    {
+        "id":29,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/2/723671c8901526301614_1.jpg",
+        "title":"Maybelline New York Colossal Kajal Super Black",
+        "price":309,
+        "category":"Maybelline New York"
+    },
+    {
+        "id":30,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/9/f9b1a078904325006926_1.jpg",
+        "title":"Swiss Beauty Intense Gel Kajal - Peraly White",
+        "price":359,
+        "category":"Blue Heaven"
+    },
+    {
+        "id":31,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/7/37da50bSUGAG00000032_1.jpg",
+        "title":"SUGAR POP Longwear Kajal - 01 Black",
+        "price":170,
+        "category":"Sugar"
+    },
+    {
+        "id":32,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/5/459afe58904214802127_1.jpg",
+        "title":"Blue Heaven 2X Intense Kajal- Green Queen",
+        "price":126,
+        "category":"Blue Heaven"
+    },
+    {
+        "id":33,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/6/e608a.jpg",
+        "title":"Wet n Wild Color Icon Kohl Liner Pencil - You're Always White",
+        "price":195,
+        "category":"Sugar"
+    },
+    {
+        "id":34,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/4/d4d9817Combo_2.jpg",
+        "title":"Blue Heaven Mesmerising Eye Combo",
+        "price":286,
+        "category":"Blue Heaven"
+    },
+    {
+        "id":35,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/c/9c0d2b4LAKME00000114_11.jpg",
+        "title":"Lakme Eyeconic Insta Cool Kajal (black)",
+        "price":196,
+        "category":"Lakme"
+    },
+    {
+        "id":36,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc4da8IBAHA00000088_1.jpg",
+        "title":"IBA Must Have Complete Makeup Box (Fair)",
+        "price":4137,
+        "category":"Blue Heaven"
+    },
+    {
+        "id":37,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/f/7f58e57KAYBE00000048_1.jpg",
+        "title":"Kay Beauty Gel Eye Pencil - Blue",
+        "price":599,
+        "category":"Kay Beauty Pro"
+    },
+    {
+        "id":38,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/0/7077e57KAYBE00000051_1.jpg",
+        "title":"Kay Beauty Gel Eye Pencil - Blue",
+        "price":599,
+        "category":"Kay Beauty Pro"
+    },
+    {
+        "id":39,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/4/24e6697COLOR00000223-New1.jpg",
+        "title":"Colorbar Waterproof Liquid Eyeliner & Intensely Rich Kajal Combo",
+        "price":385,
+        "category":"Colorbar"
+    },
+    {
+        "id":40,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/c/cc4a238BLUEH00000391_1.jpg",
+        "title":"Blue Heaven Get Bold Pencil Kajal With Free Sharperner Or Comphor & Castor Oil - Black",
+        "price":59,
+        "category":"Blue Heaven"
+    },
+    {
+        "id":41,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/8/78b2401FACES00000441_1.jpg",
+        "title":"Faces Canada Fresh Eyes Kajal",
+        "price":203,
+        "category":"Faces Canada"
+    },
+    {
+        "id":42,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/b/fb9db845057566501354_-_2.jpg",
+        "title":"Revolution Relove Kohl Eyeliner - White",
+        "price":250,
+        "category":"Sugar"
+    },
+    {
+        "id":43,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9d870c58904245701611_0.jpg",
+        "title":"Nykaa Eyem Bold Kajal With Free Sharpener (Deep Black 001)",
+        "price":549,
+        "category":"Nykaa Cosmetics"
+    },
+    {
+        "id":44,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/e/9e606d2insig00000040_1.jpg",
+        "title":"Insight Cosmetics 4X Intense Kohl Kajal",
+        "price":99,
+        "category":"Sugar"
+    },
+    {
+        "id":45,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/1/11fb29a773602112371_rv__1.jpg",
+        "title":"M.A.C Technakohl Liner - Graphblack",
+        "price":1650,
+        "category":"M.A.C"
+    },
+    {
+        "id":46,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/a/4a1094641554588910_1.jpg",
+        "title":"Maybelline New York Tattoostudio Smokey Eye Kohl Gel Pencil Eyeliner Smokey Black",
+        "price":539,
+        "category":"Maybelline New York"
+    },
+    {
+        "id":47,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/6/66e0b51nysgrcom00019_1.jpg",
+        "title":"SUGAR Stroke Of Genius Heavy Duty Kohl With Free Sharpener - 01 Back To Black (Black)",
+        "price":424,
+        "category":"Sugar"
+    },
+    {
+        "id":48,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/0/d0af2707612472980013_1.jpg",
+        "title":"Chambor Extreme Eyes Long Wear Kohl - Blackest Black – Kajal Makeup",
+        "price":695,
+        "category":"Sugar"
+    },
+    {
+        "id":49,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dce3e57KAYBE00000049_1.jpg",
+        "title":"Kay Beauty Gel Eye Pencil - Bronze",
+        "price":539,
+        "category":"Kay Beauty Pro"
+    },
+    {
+        "id":50,
+        "image":"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/9/5985ca28904245700836_rev1.jpg",
+        "title":"Nykaa Eyem BLACK Kajal Eyeliner With Free Nykaa Sharpener Black Knight",
+        "price":404,
+        "category":"Nykaa Cosmetics"
+    }
+]

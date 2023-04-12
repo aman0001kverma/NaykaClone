@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 40px;
+        }
+        .card{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            width: 350px;
+            height: 400px;
+            text-align: center;
+        }
+        button{
+            background-color: rgb(350,80,80);
+            border: none;
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            align-items: center;
+            border-radius: 0.2rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <a href="cart.html">cart</a>
+    <div id="container">
+
+    </div>
+</body>
+</html>
+<script>
+    let container=document.getElementById("container")
+    
+
+    fetch("kajal.json")
+    .then((res)=>{
+        return res.json()
+    })
+    .then((realdata)=>{
+        // console.log(data);
+        displayKajal(realdata)
+        console.log(realdata);
+    })
+    .catch((err)=>{
+        console.log(err);
+    })
+
+    function displayKajal(store){
+        store.forEach(element => {
+            let card=document.createElement("div")
+            card.classList='card'
+            let image=document.createElement("img")
+            image.setAttribute("src",element.image)
+            let title=document.createElement("h4")
+            title.innerText=element.title
+            let price=document.createElement("p")
+            price.innerText= `₹ ${element.price}`
+            let addCart=document.createElement("button")
+            addCart.innerText='Add to bag'
+            addCart.addEventListener("click",()=>{
+                // store.push(data)
+                let store=JSON.parse(localStorage.getItem("cart")) || []
+                isThere=0;
+                for(let i=0; i<store.length; i++){
+                    if(store[i].id==element.id){
+                        isThere=1;
+                        break
+                    }
+
+                }
+                if(isThere==1){
+                    alert("Product already added")
+                }
+                else{
+                    store.push(element)
+                    localStorage.setItem("cart",JSON.stringify(store))
+                    alert("Product added to cart")
+                }
+                
+            })
+            card.append(image,title,price,addCart)
+            container.append(card)
+        });
+    }
+</script>
