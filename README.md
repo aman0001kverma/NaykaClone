@@ -1,4 +1,4 @@
-# impossible-basin-3215
+# BeautyFable
 This project is aimed at redesigning and optimizing the Naykaa website, one of the leading e-commerce platforms for beauty and personal care products. The main objectives of the project are:
 
 Improving the user experience and interface design of the website
