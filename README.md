@@ -11,11 +11,3 @@ The project will involve redesigning the Naykaa website's interface and user exp
 
 As part of the project, we will introduce new features and functionalities, such as a personalized user dashboard, advanced search functionality, and social media integration. Additionally, we will work on implementing SEO strategies to improve the website's visibility and ranking on search engines.
 
-Project Team
-The project team will consist of the following members:
-
-Project Manager: responsible for project planning, execution, and management
-User Experience Designer: responsible for website design and user experience
-Front-end Developer: responsible for website front-end development
-Back-end Developer: responsible for website back-end development
-Quality Assurance Specialist: responsible for testing and quality assurance
